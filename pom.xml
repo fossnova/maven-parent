@@ -81,7 +81,7 @@
     <maven.compiler.argument.source>${maven.compiler.source}</maven.compiler.argument.source>
     <maven.compiler.argument.testTarget>${maven.compiler.testTarget}</maven.compiler.argument.testTarget>
     <maven.compiler.argument.testSource>${maven.compiler.testSource}</maven.compiler.argument.testSource>
-    <maven.min.version>3.3.9</maven.min.version>
+    <maven.min.version>3.5.0</maven.min.version>
     <jdk.min.version>${maven.compiler.source}</jdk.min.version>
     <maven.deploy.skip>false</maven.deploy.skip>
     <gpg.skip>false</gpg.skip>
