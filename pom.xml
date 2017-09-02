@@ -87,7 +87,7 @@
     <gpg.skip>false</gpg.skip>
     <maven.install.skip>false</maven.install.skip>
     <maven.javadoc.skip>true</maven.javadoc.skip>
-    <version.checkstyle>7.1.2</version.checkstyle>
+    <version.checkstyle>7.8.2</version.checkstyle>
   </properties>
 
   <build>
@@ -105,8 +105,10 @@
             </dependency>
           </dependencies>
           <configuration>
+            <includeTestSourceDirectory>true</includeTestSourceDirectory>
             <consoleOutput>true</consoleOutput>
             <failsOnError>false</failsOnError>
+            <linkXRef>false</linkXRef>
           </configuration>
         </plugin>
         <plugin>
