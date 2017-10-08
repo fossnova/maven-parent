@@ -29,7 +29,7 @@
   <artifactId>fossnova-maven-parent</artifactId>
   <description>Parent POM for all FOSS Nova projects</description>
   <packaging>pom</packaging>
-  <version>1.0.0</version>
+  <version>1.0.1-SNAPSHOT</version>
   <url>http://fossnova.org</url>
 
   <scm>
