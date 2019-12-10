@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  ~ Copyright (c) 2012-2017, FOSS Nova Software foundation (FNSF),
+  ~ Copyright (c) 2012-2020, FOSS Nova Software foundation (FNSF),
   ~ and individual contributors as indicated by the @author tags.
   ~
   ~ This is free software; you can redistribute it and/or modify it
@@ -66,37 +66,37 @@
   </developers>
 
   <properties>
-    <version.checkstyle.plugin>2.17</version.checkstyle.plugin>
-    <version.clean.plugin>3.0.0</version.clean.plugin>
-    <version.compiler.plugin>3.5.1</version.compiler.plugin>
-    <version.deploy.plugin>2.8.2</version.deploy.plugin>
-    <version.enforcer.plugin>1.4.1</version.enforcer.plugin>
+    <version.checkstyle.plugin>3.1.0</version.checkstyle.plugin>
+    <version.clean.plugin>3.1.0</version.clean.plugin>
+    <version.compiler.plugin>3.8.1</version.compiler.plugin>
+    <version.deploy.plugin>3.0.0-M1</version.deploy.plugin>
+    <version.enforcer.plugin>3.0.0-M3</version.enforcer.plugin>
     <version.gpg.plugin>1.6</version.gpg.plugin>
-    <version.help.plugin>2.2</version.help.plugin>
-    <version.install.plugin>2.5.2</version.install.plugin>
-    <version.jar.plugin>3.0.2</version.jar.plugin>
-    <version.javadoc.plugin>2.10.4</version.javadoc.plugin>
-    <version.resources.plugin>3.0.1</version.resources.plugin>
-    <version.source.plugin>3.0.1</version.source.plugin>
-    <version.surefire.plugin>2.19.1</version.surefire.plugin>
+    <version.help.plugin>3.2.0</version.help.plugin>
+    <version.install.plugin>3.0.0-M1</version.install.plugin>
+    <version.jar.plugin>3.2.0</version.jar.plugin>
+    <version.javadoc.plugin>3.1.1</version.javadoc.plugin>
+    <version.resources.plugin>3.1.0</version.resources.plugin>
+    <version.source.plugin>3.2.0</version.source.plugin>
+    <version.surefire.plugin>3.0.0-M4</version.surefire.plugin>
 
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-    <maven.compiler.target>1.8</maven.compiler.target>
-    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>11</maven.compiler.target>
+    <maven.compiler.source>11</maven.compiler.source>
     <maven.compiler.testTarget>${maven.compiler.target}</maven.compiler.testTarget>
     <maven.compiler.testSource>${maven.compiler.source}</maven.compiler.testSource>
     <maven.compiler.argument.target>${maven.compiler.target}</maven.compiler.argument.target>
     <maven.compiler.argument.source>${maven.compiler.source}</maven.compiler.argument.source>
     <maven.compiler.argument.testTarget>${maven.compiler.testTarget}</maven.compiler.argument.testTarget>
     <maven.compiler.argument.testSource>${maven.compiler.testSource}</maven.compiler.argument.testSource>
-    <maven.min.version>3.5.0</maven.min.version>
+    <maven.min.version>3.6.0</maven.min.version>
     <jdk.min.version>${maven.compiler.source}</jdk.min.version>
     <maven.deploy.skip>false</maven.deploy.skip>
     <gpg.skip>false</gpg.skip>
     <maven.install.skip>false</maven.install.skip>
     <maven.javadoc.skip>true</maven.javadoc.skip>
-    <version.checkstyle>7.8.2</version.checkstyle>
+    <version.checkstyle>8.27</version.checkstyle>
   </properties>
 
   <build>
