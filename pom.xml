@@ -96,7 +96,7 @@
     <gpg.skip>false</gpg.skip>
     <maven.install.skip>false</maven.install.skip>
     <maven.javadoc.skip>true</maven.javadoc.skip>
-    <version.checkstyle>8.27</version.checkstyle>
+    <version.checkstyle>8.29</version.checkstyle>
   </properties>
 
   <build>
