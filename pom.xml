@@ -66,7 +66,7 @@
   </developers>
 
   <properties>
-    <version.checkstyle.plugin>3.1.0</version.checkstyle.plugin>
+    <version.checkstyle.plugin>3.1.1</version.checkstyle.plugin>
     <version.clean.plugin>3.1.0</version.clean.plugin>
     <version.compiler.plugin>3.8.1</version.compiler.plugin>
     <version.deploy.plugin>3.0.0-M1</version.deploy.plugin>
@@ -75,28 +75,28 @@
     <version.help.plugin>3.2.0</version.help.plugin>
     <version.install.plugin>3.0.0-M1</version.install.plugin>
     <version.jar.plugin>3.2.0</version.jar.plugin>
-    <version.javadoc.plugin>3.1.1</version.javadoc.plugin>
-    <version.resources.plugin>3.1.0</version.resources.plugin>
-    <version.source.plugin>3.2.0</version.source.plugin>
-    <version.surefire.plugin>3.0.0-M4</version.surefire.plugin>
+    <version.javadoc.plugin>3.2.0</version.javadoc.plugin>
+    <version.resources.plugin>3.2.0</version.resources.plugin>
+    <version.source.plugin>3.2.1</version.source.plugin>
+    <version.surefire.plugin>3.0.0-M5</version.surefire.plugin>
 
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-    <maven.compiler.target>11</maven.compiler.target>
-    <maven.compiler.source>11</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+    <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.testTarget>${maven.compiler.target}</maven.compiler.testTarget>
     <maven.compiler.testSource>${maven.compiler.source}</maven.compiler.testSource>
     <maven.compiler.argument.target>${maven.compiler.target}</maven.compiler.argument.target>
     <maven.compiler.argument.source>${maven.compiler.source}</maven.compiler.argument.source>
     <maven.compiler.argument.testTarget>${maven.compiler.testTarget}</maven.compiler.argument.testTarget>
     <maven.compiler.argument.testSource>${maven.compiler.testSource}</maven.compiler.argument.testSource>
-    <maven.min.version>3.6.0</maven.min.version>
+    <maven.min.version>3.6.3</maven.min.version>
     <jdk.min.version>${maven.compiler.source}</jdk.min.version>
     <maven.deploy.skip>false</maven.deploy.skip>
     <gpg.skip>false</gpg.skip>
     <maven.install.skip>false</maven.install.skip>
     <maven.javadoc.skip>true</maven.javadoc.skip>
-    <version.checkstyle>8.27</version.checkstyle>
+    <version.checkstyle>8.37</version.checkstyle>
   </properties>
 
   <build>
