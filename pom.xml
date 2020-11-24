@@ -66,6 +66,7 @@
   </developers>
 
   <properties>
+    <!-- maven plugin versions -->
     <version.checkstyle.plugin>3.1.1</version.checkstyle.plugin>
     <version.clean.plugin>3.1.0</version.clean.plugin>
     <version.compiler.plugin>3.8.1</version.compiler.plugin>
@@ -79,9 +80,12 @@
     <version.resources.plugin>3.2.0</version.resources.plugin>
     <version.source.plugin>3.2.1</version.source.plugin>
     <version.surefire.plugin>3.0.0-M5</version.surefire.plugin>
-
+    <!-- checkstyle version -->
+    <version.checkstyle>8.37</version.checkstyle>
+    <!-- files encoding -->
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    <!-- compiler settings -->
     <maven.compiler.target>1.8</maven.compiler.target>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.testTarget>${maven.compiler.target}</maven.compiler.testTarget>
@@ -90,13 +94,14 @@
     <maven.compiler.argument.source>${maven.compiler.source}</maven.compiler.argument.source>
     <maven.compiler.argument.testTarget>${maven.compiler.testTarget}</maven.compiler.argument.testTarget>
     <maven.compiler.argument.testSource>${maven.compiler.testSource}</maven.compiler.argument.testSource>
+    <!-- minimal build requirements -->
     <maven.min.version>3.6.3</maven.min.version>
     <jdk.min.version>${maven.compiler.source}</jdk.min.version>
+    <!-- default build values -->
     <maven.deploy.skip>false</maven.deploy.skip>
-    <gpg.skip>false</gpg.skip>
     <maven.install.skip>false</maven.install.skip>
     <maven.javadoc.skip>true</maven.javadoc.skip>
-    <version.checkstyle>8.37</version.checkstyle>
+    <gpg.skip>false</gpg.skip>
   </properties>
 
   <build>
